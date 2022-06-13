@@ -1,7 +1,11 @@
+Changes made to prevent conflicts with Teensy Metro library:
+ - Metro.h renamed to MetroUno.h
+ - Metro.cpp renamed to MetroUno.cpp
+ - In MetroUno.cpp: #include Metro.h changed to #include MetroUno.h
+
+
 METRO
 =====================
-
-Metro works well, but this is the new version : https://github.com/SofaPirate/Chrono
 
 Metro library for Arduino or Wiring that facilitates the implementation of recurring timed events
 by Thomas Ouellet Fredericks
